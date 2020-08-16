@@ -1,0 +1,10 @@
+{
+    "Content-Security-Policy": "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; connect-src 'self' https://*.amazonaws.com https://*.amazoncognito.com",
+    "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+    "Referrer-Policy": "same-origin",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff"
+  }
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:  https://fonts.googleapis.com; style-src 'self'; font-src 'self' https://fonts.googleapis.com; script-src 'self';  media-src *; frame-src: https://youtube.com/">
