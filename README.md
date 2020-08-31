@@ -5,6 +5,8 @@ Microsite introducing the Seattle Kraken
 
 1. Install Node dependencies
 
+        npm install
+
         "browser-sync": "^2.26.7",
         "gulp-autoprefixer": "^7.0.1",
         "gulp-clean-css": "^4.3.0",
